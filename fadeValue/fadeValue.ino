@@ -1,7 +1,8 @@
 int ledPin = 5;
 
 void setup() {
-
+  // initialize the digital pin as an output
+  pinMode(led, OUTPUT)
 }
 
 void loop() {

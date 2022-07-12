@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "04_analogInput\\analogInput.ino",
+    "port": "COM8"
+}
