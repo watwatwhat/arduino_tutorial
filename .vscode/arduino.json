@@ -1,5 +1,5 @@
 {
     "board": "arduino:avr:uno",
-    "sketch": "04_analogInput\\analogInput.ino",
+    "sketch": "13_Tilt_Switch\\Tilt_switch.ino",
     "port": "COM8"
 }

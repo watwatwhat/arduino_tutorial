@@ -13,7 +13,6 @@ int KeyRest=2;    // initialize pin for reset button
 int Red;
 int Yellow;
 int Green;
-
 void setup()
 {
   pinMode(Redled,OUTPUT);
@@ -24,8 +23,8 @@ void setup()
   pinMode(Key3,INPUT);
   pinMode(KeyRest,INPUT);
 }
-
-void loop() {
+void loop()         // repeatedly read pins for buttons
+{
   Red=digitalRead(Key1);
   Yellow=digitalRead(Key2);
   Green=digitalRead(Key3);
@@ -70,3 +69,4 @@ void clear_led()   // all LED off
   digitalWrite(Greenled,LOW);
   digitalWrite(Yellowled,LOW);
 }
+
